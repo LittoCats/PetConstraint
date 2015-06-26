@@ -12,14 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+     
+        
+        let button = UIButton(type: .System)
+        button.setTitle("TEST", forState: .Normal)
+        self.view.addSubview(button)
+        
+        button.backgroundColor = UIColor.purpleColor()
+        
+        button.CenterX*2-100==self.view.CenterX*1.5-44
+        button.CenterY==self.view.CenterY*0.5+100
+        
+        button.Width==100
+        button.Height==66.5
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
