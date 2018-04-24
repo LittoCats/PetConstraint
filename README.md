@@ -9,7 +9,5 @@ button.Width == 100
 button.Height == 66.5
 ```
 
-只有 100 行代码，接添加到项目即可
-
-适用于 swift 2.0 (swift 1.* 未测试)
+适用于 swift 4.0
 
